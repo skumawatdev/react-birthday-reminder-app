@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: chmod 777 react-birthday-reminder-app
+    - run: ls -la
     - run: npm i
     - run: npm run build
