@@ -1,9 +1,10 @@
 import React from "react";
+
 export default function List(props) {
     console.log(props.birthdayPeoples);
-    const birthdayList = props.birthdayPeoples.map(item =>{
+    const birthdayList = props.birthdayPeoples.map(item => {
         // console.log(item);
-        const {id, name,age, image} = item;
+        const {id, name,age} = item;
         return (
             <article className='person' key = {id}>
                <img src="example.jpg" alt="A cat" />
