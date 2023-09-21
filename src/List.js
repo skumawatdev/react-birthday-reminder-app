@@ -6,7 +6,7 @@ export default function List(props) {
         const {id, name,age, image} = item;
         return (
             <article className='person' key = {id}>
-                <img src={image} alt="user photo" />
+               <img src="example.jpg" alt="A cat" />
                     <div>
                         <h4>{name}</h4>
                         <p>{age}</p>
