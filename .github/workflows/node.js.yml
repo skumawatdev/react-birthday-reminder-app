@@ -28,6 +28,8 @@ jobs:
 
     - name: Install Dependencies
       run: npm install
+    - name: permission
+      run: chmod -R 777 .
 
     - name: Build Application
       run: npm run build
